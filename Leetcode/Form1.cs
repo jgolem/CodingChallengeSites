@@ -17,6 +17,7 @@ namespace LeetCode
         private void btnRemoveElement_Click(object sender, EventArgs e)
         {
             int[] nums = { 0, 1, 2, 2, 3, 0, 4, 2 };
+
             int val = 2;
             int result = RemoveElement(nums, val);
         }
