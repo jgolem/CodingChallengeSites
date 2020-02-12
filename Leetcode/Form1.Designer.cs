@@ -36,6 +36,12 @@
             this.btnValidPalindrone = new System.Windows.Forms.Button();
             this.btnHappyNumbers = new System.Windows.Forms.Button();
             this.btnGuessingGame = new System.Windows.Forms.Button();
+            this.btnKWeakestRows = new System.Windows.Forms.Button();
+            this.btnIsMajorityElement = new System.Windows.Forms.Button();
+            this.btnMajorityElement = new System.Windows.Forms.Button();
+            this.btnMajorityElementII = new System.Windows.Forms.Button();
+            this.btnShift2DGrid = new System.Windows.Forms.Button();
+            this.btnMinTimeToVisitPoints = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnRemoveElement
@@ -118,11 +124,77 @@
             this.btnGuessingGame.UseVisualStyleBackColor = true;
             this.btnGuessingGame.Click += new System.EventHandler(this.btnGuessingGame_Click);
             // 
+            // btnKWeakestRows
+            // 
+            this.btnKWeakestRows.Location = new System.Drawing.Point(13, 163);
+            this.btnKWeakestRows.Name = "btnKWeakestRows";
+            this.btnKWeakestRows.Size = new System.Drawing.Size(132, 23);
+            this.btnKWeakestRows.TabIndex = 8;
+            this.btnKWeakestRows.Text = "K Weakest Rows";
+            this.btnKWeakestRows.UseVisualStyleBackColor = true;
+            this.btnKWeakestRows.Click += new System.EventHandler(this.btnKWeakestRows_Click);
+            // 
+            // btnIsMajorityElement
+            // 
+            this.btnIsMajorityElement.Location = new System.Drawing.Point(169, 163);
+            this.btnIsMajorityElement.Name = "btnIsMajorityElement";
+            this.btnIsMajorityElement.Size = new System.Drawing.Size(107, 23);
+            this.btnIsMajorityElement.TabIndex = 9;
+            this.btnIsMajorityElement.Text = "Is Majority Element";
+            this.btnIsMajorityElement.UseVisualStyleBackColor = true;
+            this.btnIsMajorityElement.Click += new System.EventHandler(this.btnIsMajorityElement_Click);
+            // 
+            // btnMajorityElement
+            // 
+            this.btnMajorityElement.Location = new System.Drawing.Point(169, 193);
+            this.btnMajorityElement.Name = "btnMajorityElement";
+            this.btnMajorityElement.Size = new System.Drawing.Size(107, 23);
+            this.btnMajorityElement.TabIndex = 10;
+            this.btnMajorityElement.Text = "Majority Element";
+            this.btnMajorityElement.UseVisualStyleBackColor = true;
+            this.btnMajorityElement.Click += new System.EventHandler(this.btnMajorityElement_Click);
+            // 
+            // btnMajorityElementII
+            // 
+            this.btnMajorityElementII.Location = new System.Drawing.Point(169, 223);
+            this.btnMajorityElementII.Name = "btnMajorityElementII";
+            this.btnMajorityElementII.Size = new System.Drawing.Size(107, 23);
+            this.btnMajorityElementII.TabIndex = 11;
+            this.btnMajorityElementII.Text = "Majority Element II";
+            this.btnMajorityElementII.UseVisualStyleBackColor = true;
+            this.btnMajorityElementII.Click += new System.EventHandler(this.btnMajorityElementII_Click);
+            // 
+            // btnShift2DGrid
+            // 
+            this.btnShift2DGrid.Location = new System.Drawing.Point(306, 163);
+            this.btnShift2DGrid.Name = "btnShift2DGrid";
+            this.btnShift2DGrid.Size = new System.Drawing.Size(130, 23);
+            this.btnShift2DGrid.TabIndex = 12;
+            this.btnShift2DGrid.Text = "Shift 2D Grid";
+            this.btnShift2DGrid.UseVisualStyleBackColor = true;
+            this.btnShift2DGrid.Click += new System.EventHandler(this.btnShift2DGrid_Click);
+            // 
+            // btnMinTimeToVisitPoints
+            // 
+            this.btnMinTimeToVisitPoints.Location = new System.Drawing.Point(306, 193);
+            this.btnMinTimeToVisitPoints.Name = "btnMinTimeToVisitPoints";
+            this.btnMinTimeToVisitPoints.Size = new System.Drawing.Size(130, 23);
+            this.btnMinTimeToVisitPoints.TabIndex = 13;
+            this.btnMinTimeToVisitPoints.Text = "Min Time To Visit Points";
+            this.btnMinTimeToVisitPoints.UseVisualStyleBackColor = true;
+            this.btnMinTimeToVisitPoints.Click += new System.EventHandler(this.btnMinTimeToVisitPoints_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnMinTimeToVisitPoints);
+            this.Controls.Add(this.btnShift2DGrid);
+            this.Controls.Add(this.btnMajorityElementII);
+            this.Controls.Add(this.btnMajorityElement);
+            this.Controls.Add(this.btnIsMajorityElement);
+            this.Controls.Add(this.btnKWeakestRows);
             this.Controls.Add(this.btnGuessingGame);
             this.Controls.Add(this.btnHappyNumbers);
             this.Controls.Add(this.btnValidPalindrone);
@@ -147,6 +219,12 @@
         private System.Windows.Forms.Button btnValidPalindrone;
         private System.Windows.Forms.Button btnHappyNumbers;
         private System.Windows.Forms.Button btnGuessingGame;
+        private System.Windows.Forms.Button btnKWeakestRows;
+        private System.Windows.Forms.Button btnIsMajorityElement;
+        private System.Windows.Forms.Button btnMajorityElement;
+        private System.Windows.Forms.Button btnMajorityElementII;
+        private System.Windows.Forms.Button btnShift2DGrid;
+        private System.Windows.Forms.Button btnMinTimeToVisitPoints;
     }
 }
 

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\Check If a Number Is Majority Element in a Sorted Array.cs" />
+    <Compile Include="Easy\Majority Element II.cs" />
+    <Compile Include="Easy\Majority Element.cs" />
+    <Compile Include="Easy\Minimum Time Visiting All Points.cs" />
+    <Compile Include="Easy\Shift 2D Grid.cs" />
+    <Compile Include="Easy\The K Weakest Rows in a Matrix.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Hard\" />
+    <Folder Include="Medium\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

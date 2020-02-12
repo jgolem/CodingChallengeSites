@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Runtime.Remoting.Messaging;
 using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
+using Leetcode.Easy;
 
 namespace LeetCode
 {
@@ -393,6 +394,42 @@ namespace LeetCode
             if (num < _guess) return 1;
             if (num > _guess) return -1;
             return 0;
+        }
+
+        private void btnKWeakestRows_Click(object sender, EventArgs e)
+        {
+            The_K_Weakest_Rows_in_a_Matrix theKWeakestRowsInAMatrix = new The_K_Weakest_Rows_in_a_Matrix();
+            theKWeakestRowsInAMatrix.RunTests();
+        }
+
+        private void btnIsMajorityElement_Click(object sender, EventArgs e)
+        {
+            Check_If_a_Number_Is_Majority_Element_in_a_Sorted_Array isMajorityElement = new Check_If_a_Number_Is_Majority_Element_in_a_Sorted_Array();
+            isMajorityElement.RunTests();
+        }
+
+        private void btnMajorityElement_Click(object sender, EventArgs e)
+        {
+            MajorityElement majorityElement = new MajorityElement();
+            majorityElement.RunTests();
+        }
+
+        private void btnMajorityElementII_Click(object sender, EventArgs e)
+        {
+            Majority_Element_II majorityElement = new Majority_Element_II();
+            majorityElement.RunTests();
+        }
+
+        private void btnShift2DGrid_Click(object sender, EventArgs e)
+        {
+            Shift_2D_Grid shift2DGrid = new Shift_2D_Grid();
+            shift2DGrid.RunTests();
+        }
+
+        private void btnMinTimeToVisitPoints_Click(object sender, EventArgs e)
+        {
+            Minimum_Time_Visiting_All_Points minimumTimeVisitingAllPoints = new Minimum_Time_Visiting_All_Points();
+            minimumTimeVisitingAllPoints.RunTests();
         }
     }
     public class ListNode
